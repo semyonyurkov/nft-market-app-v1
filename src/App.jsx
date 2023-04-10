@@ -13,7 +13,7 @@ function App() {
             <Main>
                 <Routes>
                     <Route exact path="/" element={<MainPage />} />
-                    <Route path="/nft/:id" element={<Details />} />
+                    <Route path="/nft" element={<Details />} />
                     <Route path="/account" element={<PersonalAcc />} />
                 </Routes>
             </Main>
