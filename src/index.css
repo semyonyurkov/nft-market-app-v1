@@ -8,3 +8,10 @@ body {
     color: white;
     background-color: #112d49;
 }
+
+.nft-list {
+    display: flex;
+    max-width: 1240px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
