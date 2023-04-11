@@ -15,3 +15,15 @@ body {
     flex-wrap: wrap;
     gap: 50px;
 }
+
+.nft-container {
+    display: flex;
+    gap: 20px;
+}
+
+.nft-title-img {
+}
+
+.nft-info {
+    align-self: center;
+}

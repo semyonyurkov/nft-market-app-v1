@@ -15,14 +15,16 @@ const Header = () => {
         padding: 2rem 0;
     `;
 
-    const Title = styled.div`
+    const ButtonMainPage = styled(Link).attrs({
+        to: '/',
+    })`
         color: var(--colors-text);
         font-size: var(--fs-sm);
         text-decoration: none;
         font-weight: var(--fw-bold);
     `;
 
-    const Button = styled(Link).attrs({
+    const ButtonRegistration = styled(Link).attrs({
         to: '/account',
     })`
         color: var(--colors-text);
@@ -36,8 +38,10 @@ const Header = () => {
             <HeaderEl>
                 <Container>
                     <Wrapper>
-                        <Title>NFT Gallery</Title>
-                        <Button>Log in / Sign up</Button>
+                        <ButtonMainPage>NFT Gallery</ButtonMainPage>
+                        <ButtonRegistration>
+                            Log in / Sign up
+                        </ButtonRegistration>
                     </Wrapper>
                 </Container>
             </HeaderEl>
